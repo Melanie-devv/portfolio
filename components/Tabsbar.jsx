@@ -1,0 +1,17 @@
+import Tab from './Tab';
+import styles from '../styles/Tabsbar.module.css';
+
+const Tabsbar = () => {
+  return (
+    <div className={styles.tabs}>
+      <Tab icon="/react_icon.svg" filename="accueil.jsx" path="/" />
+      <Tab icon="/html_icon.svg" filename="a_propos.html" path="/about" />
+      <Tab icon="/css_icon.svg" filename="contact.css" path="/contact" />
+      <Tab icon="/js_icon.svg" filename="projects.js" path="/projects" />
+      <Tab icon="/json_icon.svg" filename="veilles.json" path="/articles" />
+      <Tab icon="/markdown_icon.svg" filename="bts.md" path="/bts" />
+    </div>
+  );
+};
+
+export default Tabsbar;

@@ -1,0 +1,56 @@
+[
+    {
+        "type_of": "article",
+        "title": "I built a social network for developers to showcase their projects",
+        "description": "TL;DR: Driwwwle is an open-source social network to showcase your projects with like, comments,...",
+        "url": "https://dev.to/itsnitinr/i-built-a-social-network-for-developers-to-showcase-their-projects-m7j",
+        "comments_count": 21,
+        "public_reactions_count": 168,
+        "page_views_count": 3851
+    },
+    {
+        "type_of": "article",
+        "title": "5 NPM Packages to Secure Your Node.js Backend in 5 Minutes",
+        "description": "When you start to focus on the performance and security of your backend alongside the other features,...",
+        "url": "https://dev.to/itsnitinr/5-npm-packages-to-secure-your-node-js-backend-in-5-minutes-2732",
+        "comments_count": 10,
+        "public_reactions_count": 212,
+        "page_views_count": 8548
+    },
+    {
+        "type_of": "article",
+        "title": "I Built a VSCode Inspired Developer Portfolio",
+        "description": "The Idea &amp; Inspiration   Truth be told, I've lost count of the number of amazing portfol...",
+        "url": "https://dev.to/itsnitinr/i-built-a-vscode-inspired-developer-portfolio-418g",
+        "comments_count": 83,
+        "public_reactions_count": 293,
+        "page_views_count": 15114
+    },
+    {
+        "type_of": "article",
+        "title": "5 Key Takeaways from my First Freelance Project",
+        "description": "Getting your first client as a freelancer is usually a giant stepping stone that a lot of the develop...",
+        "url": "https://dev.to/itsnitinr/5-key-takeaways-from-my-first-freelance-project-530a",
+        "comments_count": 7,
+        "public_reactions_count": 50,
+        "page_views_count": 1731
+    },
+    {
+        "type_of": "article",
+        "title": "Build A Crypto Discord Bot using Discord.js",
+        "description": "Discord is one of the best platforms for developers to communicate for multiple reasons: the ability...",
+        "url": "https://dev.to/itsnitinr/build-a-crypto-discord-bot-using-discord-js-4c33",
+        "comments_count": 1,
+        "public_reactions_count": 16,
+        "page_views_count": 929
+    },
+    {
+        "type_of": "article",
+        "title": "You Need to Try These 10 NPM Packages as a React Developer",
+        "description": "As web developers, we tend to make use of several NPM packages on a daily basis for different reasons...",
+        "url": "https://dev.to/itsnitinr/you-need-to-try-these-10-npm-packages-as-a-react-developer-3okg",
+        "comments_count": 34,
+        "public_reactions_count": 588,
+        "page_views_count": 9950 
+    }
+]
