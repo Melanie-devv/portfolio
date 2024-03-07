@@ -1,6 +1,8 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const router = express.Router();
+require('dotenv').config();
+console.log(process.env.EMAIL_USER);
 
 router.post('/send', (req, res) => {
     const output = `
@@ -17,14 +19,14 @@ router.post('/send', (req, res) => {
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'sci.2bm@gmail.com',
-            pass: 'your-password'
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS
         }
     });
 
     let mailOptions = {
-        from: '"Nodemailer Contact" <sci.2bm@gmail.com>',
-        to: 'sci.2bm@gmail.com',
+        from: `"Nodemailer Contact" <${process.env.EMAIL_USER}>`,
+        to: process.env.EMAIL_USER,
         subject: 'Node Contact Request',
         text: 'Hello world?',
         html: output
@@ -32,10 +34,13 @@ router.post('/send', (req, res) => {
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            return console.log(error);
+            console.log(error);
+            res.status(500).json({ status: 'fail' });
+        } else {
+            console.log('Message sent: %s', info.messageId);   
+            console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+            res.status(200).json({ status: 'success' });
         }
-        console.log('Message sent: %s', info.messageId);   
-        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
     });
 });
 

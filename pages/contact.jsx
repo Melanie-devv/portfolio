@@ -38,6 +38,9 @@ const ContactPage = () => {
         alert("Message failed to send.")
       }
     })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
   };
 
   return (
