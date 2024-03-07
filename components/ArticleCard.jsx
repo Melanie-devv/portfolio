@@ -8,7 +8,6 @@ const ArticleCard = ({ article }) => {
   return (
     <a
       href={article.url}
-      target="_blank"
       rel="noopener noreferrer"
       className={styles.container}
     >
