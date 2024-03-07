@@ -1,8 +1,8 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const router = express.Router();
-require('dotenv').config();
-console.log(process.env.EMAIL_USER);
+const path = require('path');
+const result = require('dotenv').config({ path: path.join(__dirname, '.env.local') });
 
 router.post('/send', (req, res) => {
     const output = `
