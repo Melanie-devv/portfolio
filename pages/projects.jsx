@@ -18,7 +18,7 @@ const ProjectsPage = ({ projects }) => {
 
   return (
     <>
-      <h3>Stuff I've Built So Far</h3>
+      <h3>Une petite liste de mes projets</h3>
       <div className={styles.container} style={{ opacity, transition: 'opacity 0.5s' }}>
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

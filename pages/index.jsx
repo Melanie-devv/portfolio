@@ -38,7 +38,7 @@ export default function HomePage() {
             <Link href="/projects">
               <button className={styles.button}>Mes projets</button>
             </Link>
-            <a href="/CV.pdf" download>
+            <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
               <button className={styles.outlined}>Télécharger mon CV</button>
             </a>
           </div>
