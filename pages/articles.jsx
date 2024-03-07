@@ -50,7 +50,7 @@ export async function getStaticProps() {
   const data = JSON.parse(fileContent);
 
   return {
-    props: { title: 'Articles', articles: data },
+    props: { title: 'Mes veilles techno', articles: data },
     revalidate: 60,
   };
 }

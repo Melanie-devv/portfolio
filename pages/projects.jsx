@@ -32,7 +32,7 @@ export async function getStaticProps() {
   const projects = getProjects();
 
   return {
-    props: { title: 'Projects', projects },
+    props: { title: 'Mes projets', projects },
   };
 }
 

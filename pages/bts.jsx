@@ -20,4 +20,10 @@ const GithubPage = ({ repos, user }) => {
   );
 }
 
+export async function getStaticProps() {
+  return {
+    props: { title: 'Le BTS SIO' },
+  };
+}
+
 export default GithubPage;

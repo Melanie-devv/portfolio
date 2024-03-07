@@ -2,6 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/articleIndisponible": "pages/articleIndisponible.js",
-  "/articles": "pages/articles.js"
+  "/contact": "pages/contact.js",
+  "/articles": "pages/articles.js",
+  "/projects": "pages/projects.js",
+  "/": "pages/index.js",
+  "/bts": "pages/bts.js",
+  "/about": "pages/about.js"
 }
