@@ -1,10 +1,23 @@
 import fs from 'fs';
 import path from 'path';
+import { useState, useEffect } from 'react';
 
 import ArticleCard from '../components/ArticleCard';
 import styles from '../styles/ArticlesPage.module.css';
 
 const ArticlesPage = ({ articles }) => {
+  const [opacity, setOpacity] = useState(0);
+
+  useEffect(() => {
+    const fadeIn = setTimeout(() => {
+      setOpacity(1);
+    }, 100);
+
+    return () => {
+      clearTimeout(fadeIn);
+    };
+  }, []);
+
   return (
     <>
       <h3>
@@ -19,7 +32,7 @@ const ArticlesPage = ({ articles }) => {
           dev.to
         </a> */}
       </h3>
-      <div className={styles.container}>
+      <div className={styles.container} style={{ opacity, transition: 'opacity 0.5s' }}>
       {Array.isArray(articles) ? articles.map((article) => (
         <ArticleCard key={article.id} article={article} />
       )) : null}

@@ -1,8 +1,20 @@
-import { useState } from 'react';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
+import { useState, useEffect } from 'react';
 
 const ContactPage = () => {
+  const [opacity, setOpacity] = useState(0);
+
+  useEffect(() => {
+    const fadeIn = setTimeout(() => {
+      setOpacity(1);
+    }, 100);
+
+    return () => {
+      clearTimeout(fadeIn);
+    };
+  }, []);
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
@@ -44,9 +56,9 @@ const ContactPage = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ opacity, transition: 'opacity 0.5s' }}>
       <div>
-        <h3 className={styles.heading}>Retrouvez moi sur</h3>
+        <h3 className={styles.heading}>Retrouvez moi sur :</h3>
         <ContactCode />
       </div>
       <div>
