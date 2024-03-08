@@ -28,6 +28,10 @@
   text-align: justify;
 }
 
+.body p b {
+  color: var(--accent-color);
+}
+
 @media screen and (max-width: 900px) {
   .optionContainer {
     flex-wrap: wrap;
