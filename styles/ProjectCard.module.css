@@ -65,3 +65,16 @@
 .underline:hover {
   background-size: 100% 88%;
 }
+
+.customStyles {
+  width: 900px;
+  height: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .customStyles {
+    width: auto;
+    height: auto;
+  }
+}

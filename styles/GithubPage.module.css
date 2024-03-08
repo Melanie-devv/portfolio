@@ -1,58 +1,42 @@
-.user {
-  background: var(--article-bg);
-  padding: 1.5rem 1rem;
+.optionContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  margin-bottom: 1.5rem;
+  justify-content: space-around;
 }
 
-.user > div {
-  display: flex;
-  flex-wrap: wrap;
+.optionTitle {
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-right: 2px solid var(--accent-color);
-  padding: 0 1rem;
-  height: 100%;
+  margin-bottom: 1rem;
 }
 
-.user > div:last-child {
-  border-right: none;
+.optionDescr {
+  text-align: justify;
+  margin: 1rem 0px;
 }
 
-.username {
-  margin-left: 10px;
+.optionElement {
+  margin: 1rem;
+  box-shadow: var(--accent-color)  0px 5px 15px;
+  padding: 1rem;
+  min-width: 50%
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+.optionElement ul {
+  list-style-type: none;
 }
 
-.title {
-  margin-bottom: 1.5rem;
-}
-
-.contributions article {
-  width: 100% !important;
+.body p {
+  text-align: justify;
 }
 
 @media screen and (max-width: 900px) {
-  .user h3 {
-    font-size: 1rem;
+  .optionContainer {
+    flex-wrap: wrap;
+  }
+  .optionElement {
+    min-width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .user h3 {
-    font-size: 14px;
-  }
-  .username {
-    display: none;
-  }
+
 }
