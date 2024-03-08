@@ -187,5 +187,32 @@
     "tags": ["html", "css", "javascript"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
+  },
+  {
+    "id": 22,
+    "name": "Parcoursup",
+    "image": "/images/web-11.jpg",
+    "description": "Site web python django à l'image de Parcoursup (gestion d'établissements, de voeux, d'utilisateurs avec une page admin).",
+    "tags": ["python", "django"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
+  },
+  {
+    "id": 23,
+    "name": "MyLibrary",
+    "image": "/images/web-12.jpg",
+    "description": "Site web de gestion de livres (ajout, lecture, modification, suppression) développé en php symfony.",
+    "tags": ["php", "symfony"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
+  },
+  {
+    "id": 24,
+    "name": "Vue.js",
+    "image": "/images/web-13.jpg",
+    "description": "Site web comprenant un panel de fonctionnalités (requête api, affichage d'image, d'animation, envoi de messages via Discord,...).",
+    "tags": ["javascript", "vueJS"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
   }
 ]
