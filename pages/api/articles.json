@@ -1,8 +1,8 @@
 [
     {
         "type_of": "article",
-        "title": "I built a social network for developers to showcase their projects",
-        "description": "TL;DR: Driwwwle is an open-source social network to showcase your projects with like, comments,...",
+        "title": "Framework python",
+        "description": "L’évolution des sites internet jusqu’aux frameworks fullstack commes Django ou Flask. Python dans les jeux vidéos, la data...",
         "url": "http://localhost:3000/articleIndisponible",
         "comments_count": 21,
         "public_reactions_count": 168,
@@ -10,8 +10,8 @@
     },
     {
         "type_of": "article",
-        "title": "5 NPM Packages to Secure Your Node.js Backend in 5 Minutes",
-        "description": "When you start to focus on the performance and security of your backend alongside the other features,...",
+        "title": "Evolution des batteries",
+        "description": "L’utilisation croissante des batteries dans la vie quotidienne. Comment vont-elles évoluer dans le respect du développement durable...",
         "url": "http://localhost:3000/articleIndisponible",
         "comments_count": 10,
         "public_reactions_count": 212,
@@ -19,8 +19,8 @@
     },
     {
         "type_of": "article",
-        "title": "I Built a VSCode Inspired Developer Portfolio",
-        "description": "The Idea &amp; Inspiration   Truth be told, I've lost count of the number of amazing portfol...",
+        "title": "Réalité virtuelle et réalité augmentée",
+        "description": "L'évolution du metaverse. L’arrivée de nouveaux casques virtuels (avec caméra et capteurs infrarouge…), un besoin futur...",
         "url": "http://localhost:3000/articleIndisponible",
         "comments_count": 83,
         "public_reactions_count": 293,
@@ -28,8 +28,8 @@
     },
     {
         "type_of": "article",
-        "title": "5 Key Takeaways from my First Freelance Project",
-        "description": "Getting your first client as a freelancer is usually a giant stepping stone that a lot of the develop...",
+        "title": "Intelligence artificielle ",
+        "description": "Evolution des algorithmes d’IA et leurs domaines de plus en plus vaste. Les technologies génératives : ChatGPT, conflit d'éthique...",
         "url": "http://localhost:3000/articleIndisponible",
         "comments_count": 7,
         "public_reactions_count": 50,
@@ -37,8 +37,17 @@
     },
     {
         "type_of": "article",
-        "title": "Build A Crypto Discord Bot using Discord.js",
-        "description": "Discord is one of the best platforms for developers to communicate for multiple reasons: the ability...",
+        "title": "Impression 3D",
+        "description": "Evolution des matériaux et techniques d’impression. Future application industrielles de l’impression 3D...",
+        "url": "http://localhost:3000/articleIndisponible",
+        "comments_count": 1,
+        "public_reactions_count": 10,
+        "page_views_count": 364
+    },
+    {
+        "type_of": "article",
+        "title": "Biotechnologies",
+        "description": "L’informatique au service de la recherche et la modification génétique. Combiner IA et thérapies géniques. Tendance vers l’automatisation et l’informatisation...",
         "url": "http://localhost:3000/articleIndisponible",
         "comments_count": 1,
         "public_reactions_count": 16,
@@ -46,11 +55,56 @@
     },
     {
         "type_of": "article",
-        "title": "You Need to Try These 10 NPM Packages as a React Developer",
-        "description": "As web developers, we tend to make use of several NPM packages on a daily basis for different reasons...",
+        "title": "L'évolution vers la 5G",
+        "description": "Risques pour la santé. Déploiement mondial, avantages et inconvenients. Evolution du réseau. Comment les appareils vont s’adapter à la 5G ?...",
         "url": "http://localhost:3000/articleIndisponible",
         "comments_count": 34,
         "public_reactions_count": 588,
         "page_views_count": 9950 
+    },
+    {
+        "type_of": "article",
+        "title": "Voiture autonome",
+        "description": "Les technologies (capteurs) et algorithmes utilisés pour la conduite autonome. Réglementation, des voitures de plus en plus sécurisées... ",
+        "url": "http://localhost:3000/articleIndisponible",
+        "comments_count": 23,
+        "public_reactions_count": 188,
+        "page_views_count": 2397
+    },
+    {
+        "type_of": "article",
+        "title": "L’art générée par l’IA ",
+        "description": "De plus en plus d’artistes qui utilisent l’IA, œuvres d’art numérique. Grands projets (films d’animation) qui vont utiliser l’IA. Controverse...",
+        "url": "http://localhost:3000/articleIndisponible",
+        "comments_count": 7,
+        "public_reactions_count": 202,
+        "page_views_count": 3457
+    },
+    {
+        "type_of": "article",
+        "title": "L’Informatique quantique",
+        "description": "Arrivée de l’ordinateur quantique, ses solutions, ses contraintes. Le quantique au service de la cryptographique, pour le meilleur et pour le pire...",
+        "url": "http://localhost:3000/articleIndisponible",
+        "comments_count": 88,
+        "public_reactions_count": 290,
+        "page_views_count": 9293
+    },
+    {
+        "type_of": "article",
+        "title": "La révolution du numérique dans l’armée",   
+        "description": "L’histoire de l’innovation technologique dans le domaine militaire. Les nouvelles technologies dans l’armée...",
+        "url": "http://localhost:3000/articleIndisponible",
+        "comments_count": 7,
+        "public_reactions_count": 38,
+        "page_views_count": 1530
+    },
+    {
+        "type_of": "article",
+        "title": "Le numérique au service de la santé",
+        "description": "Télémédecine (doctolib, consultations à distance…). Big Data. Formations grace à de nouvelles technologies (AR/VR, simulations…)...",
+        "url": "http://localhost:3000/articleIndisponible",
+        "comments_count": 2,
+        "public_reactions_count": 21,
+        "page_views_count": 1282
     }
 ]
