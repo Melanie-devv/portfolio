@@ -1,82 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Devine nombre",
-    "image": "/images/branding-1.jpg",
-    "description": "Jeu du devine nombre en Javascript avec affichage web",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
+    "name": "Labyrinthe",
+    "image": "/images/branding-2.jpg",
+    "description": "Outil de génération de labyrinthe (affichage console) en Python.",
+    "tags": ["python"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Personnel"
   },
   {
     "id": 2,
-    "name": "Labyrinthe",
-    "image": "/images/branding-2.jpg",
-    "description": "Outil de génération de labyrinthe (affichage console) en Python.",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
+    "name": "ColorPy",
+    "image": "/images/branding-3.jpg",
+    "description": "Programme générant des formes géométriques colorées en Python à l'aide de Turtle.",
+    "tags": ["python"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Personnel"
   },
   {
     "id": 3,
-    "name": "ColorPy",
-    "image": "/images/branding-3.jpg",
-    "description": "Programme générant des formes géométriques colorées en Python à l'aide de Turtle.",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
+    "name": "Puissance 4",
+    "image": "/images/branding-4.jpg",
+    "description": "Jeu du puissance 4 en POO avec un menu et des animations, plusieurs modes de jeu, affichage graphique Tkinter.",
+    "tags": ["python"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Personnel"
   },
   {
     "id": 4,
-    "name": "Puissance 4",
-    "image": "/images/branding-4.jpg",
-    "description": "Jeu du puissance 4 en POO avec un menu et des animations, plusieurs modes de jeu, affichage graphique Tkinter.",
-    "tags": ["next", "css-modules"],
-    "demo": "http://localhost:3000/articleIndisponible/",
-    "theme": "Personnel"
-  },
-  {
-    "id": 5,
     "name": "Hotel Neptune",
     "image": "/images/web-1.jpg",
     "description": "Site de réservation de chambres pour un hotel avec gestion des utilisateurs et recherche par filtre.",
-    "tags": ["next", "css-modules"],
+    "tags": ["html", "css", "javascript", "php", "sql"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Bloggy",
     "image": "/images/web-2.jpg",
     "description": "Site complet de blog et tchat en ligne avec un espace membre.",
-    "tags": ["next", "css-modules"],
+    "tags": ["html", "css", "php", "sql"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Personnel"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Coquastique",
     "image": "/images/web-3.jpg",
     "description": "Site e-commerce de coques de téléphone, Wordpress relié a Hubspot, Google analytics et woo-commerce.",
-    "tags": ["next", "css-modules"],
+    "tags": ["wordpress", "hubspot", "outils_google"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Domisol Carrelages",
     "image": "/images/web-4.jpg",
     "description": "Site vitrine professionnel de la société DOMISOL carrelages.",
-    "tags": ["next", "css-modules"],
+    "tags": ["html", "css", "javascript"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Stage"
+  },
+  {
+    "id": 8,
+    "name": "Devine nombre",
+    "image": "/images/branding-1.jpg",
+    "description": "Jeu du devine nombre en Javascript avec affichage web",
+    "tags": ["javascript", "html", "css"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Personnel"
   },
   {
     "id": 9,
     "name": "Melanipédia",
     "image": "/images/web-5.jpg",
     "description": "Encyclopédie en ligne regroupant les derniers albums des chanteurs dont Charles Aznavour.",
-    "tags": ["next", "css-modules"],
+    "tags": ["html", "css"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
@@ -85,7 +85,7 @@
     "name": "NSI Terminale",
     "image": "/images/web-6.jpg",
     "description": "Site avec les corrigés (réalisés par mes soins) de tous les sujets de NSI du bac 2022.",
-    "tags": ["next", "css-modules"],
+    "tags": ["html", "css"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Personnel"
   },
@@ -94,7 +94,7 @@
     "name": "Marketing automation",
     "image": "/images/marketing-1.jpg",
     "description": "Traitement de données, campagnes d'emailing et acquisition de leads pour un site e-commerce sur Hubspot.",
-    "tags": ["next", "css-modules"],
+    "tags": ["hubspot", "marketing"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
@@ -103,7 +103,7 @@
     "name": "Getlono",
     "image": "/images/marketing-2.jpg",
     "description": "Création d'une pipeline sur Pipedrive pour l'entreprise Getlono.",
-    "tags": ["next", "css-modules"],
+    "tags": ["crm", "marketing"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
@@ -112,7 +112,7 @@
     "name": "Paul boulangerie",
     "image": "/images/marketing-3.jpg",
     "description": "Campagne SEM / SMO (social media optimisation) pour Paul Boulangerie.",
-    "tags": ["next", "css-modules"],
+    "tags": ["marketing"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
@@ -121,7 +121,7 @@
     "name": "Moulin Roty",
     "image": "/images/marketing-4.jpg",
     "description": "Audit des cannaux de communication de l'entreprise Moulin Roty.",
-    "tags": ["next", "css-modules"],
+    "tags": ["marketing"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
@@ -130,7 +130,7 @@
     "name": "Flashbacks",
     "image": "/images/web-7.jpg",
     "description": "Création d'une webapp et amélioration d'une application Android existante.",
-    "tags": ["next", "css-modules"],
+    "tags": ["flutter", "dart", "html", "css", "python"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Stage"
   },
@@ -139,7 +139,7 @@
     "name": "Mon portfolio",
     "image": "/images/web-8.jpg",
     "description": "Création de mon portfolio unique pour le BTS SIO.",
-    "tags": ["next", "css-modules"],
+    "tags": ["nextJS","nodeJS", "javascript", "css"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
@@ -148,7 +148,7 @@
     "name": "Mon ancien portfolio",
     "image": "/images/web-9.jpg",
     "description": "Création de mon portfolio (ancien) personnel, remplacé par une version plus récente.",
-    "tags": ["next", "css-modules"],
+    "tags": ["html", "css", "javascript"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Personnel"
   },
@@ -157,8 +157,35 @@
     "name": "Supervision Zabbix",
     "image": "/images/reseau-1.jpg",
     "description": "Mise en place d’une solution de supervision du réseau (Zabbix) pour l'ensemble du groupe OC-SANTE",
-    "tags": ["next", "css-modules"],
+    "tags": ["reseau"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Stage"
+  },
+  {
+    "id": 19,
+    "name": "Pizzeria Flutter",
+    "image": "/images/branding-5.jpg",
+    "description": "Application complète pour commander chez une pizzeria en utilisant une API en ligne.",
+    "tags": ["flutter", "dart"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
+  },
+  {
+    "id": 20,
+    "name": "Snake Python",
+    "image": "/images/branding-6.jpg",
+    "description": "Jeu du snake avec plusieurs modes de jeu en utilisant pygame. Peut se jouer avec une manette.",
+    "tags": ["python"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
+  },
+  {
+    "id": 21,
+    "name": "Egalitopia",
+    "image": "/images/web-10.jpg",
+    "description": "Site web vitrine pour promouvoir l'égalité et sensibiliser. Avec le developpement d'un jeu type RPG Maker.",
+    "tags": ["html", "css", "javascript"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
   }
 ]

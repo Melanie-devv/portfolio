@@ -9,17 +9,24 @@
 }
 
 /* Tags */
-.react {
+.flutter {
   border: 0.1rem solid rgb(97, 218, 251);
 }
-.react:hover {
+.flutter:hover {
   background: rgba(97, 218, 251, 0.25);
 }
 
-.node {
+.dart {
+  border: 0.1rem solid rgb(0, 117, 186);
+}
+.dart:hover {
+  background: rgba(0, 117, 186, 0.25);
+}
+
+.nodeJS {
   border: 0.1rem solid rgb(131, 205, 41);
 }
-.node:hover {
+.nodeJS:hover {
   background: rgba(131, 205, 41, 0.25);
 }
 
@@ -51,17 +58,17 @@
   background: rgba(25, 118, 210, 0.25);
 }
 
-.bulma {
+.reseau {
   border: 0.1rem solid rgb(0, 209, 178);
 }
-.bulma:hover {
+.reseau:hover {
   background: rgb(0, 209, 178, 0.25);
 }
 
-.next {
+.nextJS {
   border: 2px solid rgb(0, 112, 243);
 }
-.next:hover {
+.nextJS:hover {
   background: rgba(0, 112, 243, 0.25);
 }
 
@@ -79,10 +86,10 @@
   background: rgba(255, 65, 84, 0.25);
 }
 
-.css-modules {
+.css {
   border: 2px solid rgb(21, 114, 182);
 }
-.css-modules:hover {
+.css:hover {
   background: rgba(21, 114, 182, 0.25);
 }
 
@@ -101,10 +108,10 @@
 }
 
 .sql {
-  border: 2px solid rgb(128,128,128);
+  border: 2px solid rgb(220,20,60);
 }
 .sql:hover {
-  background: rgba(105,105,105, 0.25);
+  background: rgba(220,20,60, 0.25);
 }
 
 .javascript {
@@ -113,3 +120,52 @@
 .javascript:hover {
   background: rgba(240, 219, 79, 0.25);
 }
+
+.python {
+  border: 2px solid rgb(0,128,0);
+}
+.python:hover {
+  background: rgba(0,128,0, 0.25);
+}
+
+.wordpress {
+  border: 2px solid rgb(220,220,220);
+}
+.wordpress:hover {
+  background: rgba(220,220,220, 0.25);
+}
+
+.hubspot {
+  border: 2px solid rgb(255, 122, 89);
+}
+.hubspot:hover {
+  background: rgba(255, 122, 89, 0.25);
+}
+
+.outils_google {
+  border: 2px solid rgb(138,43,226);
+}
+.outils_google:hover {
+  background: rgba(138,43,226, 0.25);
+}
+
+.crm {
+  border: 2px solid rgb(38, 41, 44);
+}
+.crm:hover {
+  background: rgba(38, 41, 44, 0.25);
+}
+
+.marketing {
+  border: 2px solid rgb(232, 67, 115);
+}
+.marketing:hover {
+  background: rgba(232, 67, 115, 0.25);
+}
+
+/* 
+
+projet php symfony
+projet vue js
+
+*/
