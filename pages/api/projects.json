@@ -133,5 +133,32 @@
     "tags": ["next", "css-modules"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Stage"
+  },
+  {
+    "id": 16,
+    "name": "Mon portfolio",
+    "image": "/images/web-8.jpg",
+    "description": "Création de mon portfolio unique pour le BTS SIO.",
+    "tags": ["next", "css-modules"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Ecole"
+  },
+  {
+    "id": 17,
+    "name": "Mon ancien portfolio",
+    "image": "/images/web-9.jpg",
+    "description": "Création de mon portfolio (ancien) personnel, remplacé par une version plus récente.",
+    "tags": ["next", "css-modules"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Personnel"
+  },
+  {
+    "id": 18,
+    "name": "Supervision Zabbix",
+    "image": "/images/reseau-1.jpg",
+    "description": "Mise en place d’une solution de supervision du réseau (Zabbix) pour l'ensemble du groupe OC-SANTE",
+    "tags": ["next", "css-modules"],
+    "demo": "http://localhost:3000/articleIndisponible/",
+    "theme": "Stage"
   }
 ]
