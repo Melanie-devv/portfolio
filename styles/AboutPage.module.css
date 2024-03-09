@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.grey {
+  opacity: 0.5;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+.outlined {
+  transition: all 0.5s;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  border-bottom: 2px solid var(--accent-color);
+  box-shadow: var(--accent-color)  0px 5px 15px;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.outlined:hover {
+  transition: all 0.5s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--accent-color);
+}
+
+.cvbutton {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  text-decoration: none;
+}
