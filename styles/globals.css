@@ -79,10 +79,10 @@
   background: rgba(9, 46, 32, 0.25);
 }
 
-.react-query {
+.react {
   border: 2px solid rgb(255, 65, 84);
 }
-.react-query:hover {
+.react:hover {
   background: rgba(255, 65, 84, 0.25);
 }
 

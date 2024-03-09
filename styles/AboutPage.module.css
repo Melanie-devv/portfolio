@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
+.body b {
+  color: var(--accent-color);
+}
+
 .grey {
   opacity: 0.5;
   margin-top: 0.5rem;
@@ -12,7 +16,7 @@
   padding: 0.5rem 1rem;
   color: #eee;
   border-bottom: 2px solid var(--accent-color);
-  box-shadow: var(--accent-color)  0px 5px 15px;
+  box-shadow: var(--accent-color) 0px 20px 30px -10px;
   border-radius: 10px;
   background: transparent;
   cursor: pointer;
@@ -29,4 +33,51 @@
   justify-content: center;
   margin: 1rem;
   text-decoration: none;
+}
+
+.expertiseContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutTitle {
+  text-align: center;
+  margin: 1rem;
+  margin-top: 4rem;
+}
+
+.expertiseElement {
+  margin: 1rem;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: var(--accent-color) 0px 1px 0px, var(--accent-color) 0px 1px 0px inset;
+  border-radius: 20px;
+}
+
+.expertiseElement p {
+  padding: 0 1rem;
+}
+
+.icon 
+{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+  opacity: 0.6;
+}
+
+.canvasContainer {
+  width: 100px;
+  height: 100px;
+}
+.skillsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .expertiseContainer {
+    flex-wrap: wrap;
+  }
 }

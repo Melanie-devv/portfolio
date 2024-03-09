@@ -139,7 +139,7 @@
     "name": "Mon portfolio",
     "image": "/images/web-8.jpg",
     "description": "Création de mon portfolio unique pour le BTS SIO.",
-    "tags": ["nextJS","nodeJS", "javascript", "css"],
+    "tags": ["nextJS","nodeJS", "react", "javascript", "css"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Ecole"
   },
