@@ -1,29 +1,68 @@
-import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import { motion } from "framer-motion";
+import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import EXPERIENCES from "../pages/api/experiences.json";
+import "react-vertical-timeline-component/style.min.css";
 
-const experiences = [
-  { title: 'Expérience 1', date: '2020 - présent', description: 'Description de l\'expérience 1' },
-  { title: 'Expérience 2', date: '2019 - 2020', description: 'Description de l\'expérience 2' },
-  // Ajoutez plus d'expériences ici
-];
-
-const ExperienceSection = () => (
-  <div>
-    <h2>Mes expériences</h2>
-    <VerticalTimeline>
-      {experiences.map((experience, index) => (
-        <VerticalTimelineElement
-          key={index}
-          date={experience.date}
-          position={index % 2 === 0 ? 'right' : 'left'}
-        >
-          <h3>{experience.title}</h3>
-          <p>{experience.description}</p>
-        </VerticalTimelineElement>
-      ))}
-    </VerticalTimeline>
-  </div>
+// SectionWrapper
+const SectionWrapper = ({ children, idName }) => (
+  <motion.section
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.25 }}
+  >
+    <span id={idName}>
+      &nbsp;
+    </span>
+    {children}
+  </motion.section>
 );
 
-export default ExperienceSection;
+// Experience Card
+const ExperienceCard = ({ experience }) => (
+  <VerticalTimelineElement
+    contentStyle={{ background: "#1d1836"}}
+    contentArrowStyle={{ borderRight: "7px solid #232631" }}
+    date={experience.date}
+    iconStyle={{ background: experience.iconBg }}
+    icon={
+      <div>
+        <img
+          src={experience.icon}
+          alt={experience.company_name}
+        />
+      </div>
+    }
+  >
+    {/* Title */}
+    <div>
+      <h3>{experience.title}</h3>
+      <p style={{ margin: 0 }}>
+        {experience.company_name}
+      </p>
+    </div>
+
+    {/* Experience Points */}
+    <ul>
+      {experience.points.map((point, i) => (
+        <li key={`experience-point-${i}`}>
+          {point}
+        </li>
+      ))}
+    </ul>
+  </VerticalTimelineElement>
+);
+
+// Experience
+export const Experience = () => {
+  return (
+    <SectionWrapper idName="work">
+      <div>
+        <VerticalTimeline>
+          {EXPERIENCES.map((experience, i) => (
+            <ExperienceCard key={i} experience={experience} />
+          ))}
+        </VerticalTimeline>
+      </div>
+    </SectionWrapper>
+  );
+};

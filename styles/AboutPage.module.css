@@ -156,6 +156,32 @@
   height: 140px;
 }
 
+.hrStyle {
+  border-color: var(--accent-color);
+  height: 2px;
+  margin: 3rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  transition: all ease-in-out 0.8s;
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+  box-shadow: var(--accent-color) 0px 25px 20px -10px;
+  border-radius: 10px;
+}
+
+.footer a:hover {
+  transition: all ease-in-out 0.8s;
+  color: var(--button-text);
+  box-shadow: var(--accent-color) 0px 0px 20px 10px;
+}
+
 @media screen and (max-width: 900px) {
   .expertiseContainer {
     flex-wrap: wrap;
