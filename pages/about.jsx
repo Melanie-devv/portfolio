@@ -5,6 +5,8 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons'
 import styles from '../styles/AboutPage.module.css';
+import ExperienceSection from '../components/ExperienceSection';
+
 
 export default function About() {
   const [opacity, setOpacity] = useState(0);
@@ -181,7 +183,8 @@ export default function About() {
           <canvas className={styles.canvas} ref={splineContainerRef14}></canvas>
         </div>
       </div>
-      <h2 className={styles.aboutTitle}>Mon expérience</h2>
+      <h2 className={styles.aboutTitle}>Mes expériences</h2>
+      <ExperienceSection />
     </div>
   );
 }
