@@ -16,6 +16,7 @@
   padding: 0.5rem 1rem;
   color: #eee;
   border-bottom: 2px solid var(--accent-color);
+  border-right: 2px solid var(--accent-color);;
   box-shadow: var(--accent-color) 0px 20px 30px -10px;
   border-radius: 10px;
   background: transparent;
@@ -69,6 +70,7 @@
 .canvasContainer {
   width: 100px;
   height: 100px;
+  margin: 1rem;
 }
 .skillsContainer {
   display: flex;

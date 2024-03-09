@@ -13,6 +13,14 @@ export default function About() {
   const splineContainerRef3 = useRef(null);
   const splineContainerRef4 = useRef(null);
   const splineContainerRef5 = useRef(null);
+  const splineContainerRef6 = useRef(null);
+  const splineContainerRef7 = useRef(null);
+  const splineContainerRef8 = useRef(null);
+  const splineContainerRef9 = useRef(null);
+  const splineContainerRef10 = useRef(null);
+  const splineContainerRef11 = useRef(null);
+  const splineContainerRef12 = useRef(null);
+  const splineContainerRef13 = useRef(null);
 
   useEffect(() => {
     const fadeIn = setTimeout(() => {
@@ -44,6 +52,46 @@ export default function About() {
       app.load('https://prod.spline.design/qPgHhlKdJwHvuj3b/scene.splinecode');
     }
 
+    if (splineContainerRef6.current) {
+      const app = new Application(splineContainerRef6.current);
+      app.load('https://prod.spline.design/8JI8D6CPTztecQTI/scene.splinecode');
+    }
+
+    if (splineContainerRef7.current) {
+      const app = new Application(splineContainerRef7.current);
+      app.load('https://prod.spline.design/YVONpamfYUqZnj6Q/scene.splinecode');
+    }
+
+    if (splineContainerRef8.current) {
+      const app = new Application(splineContainerRef8.current);
+      app.load('https://prod.spline.design/ApemgRG4REGYGdqi/scene.splinecode');
+    }
+
+    if (splineContainerRef9.current) {
+      const app = new Application(splineContainerRef9.current);
+      app.load('https://prod.spline.design/NWqsdD-scThOg79x/scene.splinecode');
+    }
+
+    if (splineContainerRef10.current) {
+      const app = new Application(splineContainerRef10.current);
+      app.load('https://prod.spline.design/XY26UtDdK8xRTId0/scene.splinecode');
+    }
+
+    if (splineContainerRef11.current) {
+      const app = new Application(splineContainerRef11.current);
+      app.load('https://prod.spline.design/cg2VH-HeBIMZsvI5/scene.splinecode');
+    }
+
+    if (splineContainerRef12.current){
+      const app = new Application(splineContainerRef12.current);
+      app.load('https://prod.spline.design/kp4gaiKutWP7bSOY/scene.splinecode');
+    }
+
+    if (splineContainerRef13.current){
+      const app = new Application(splineContainerRef13.current);
+      app.load('https://prod.spline.design/LgZZewqv0DdIdqqT/scene.splinecode');
+    }
+
     return () => {
       clearTimeout(fadeIn); 
     };
@@ -53,7 +101,7 @@ export default function About() {
     <div className={styles.body} style={{ opacity, transition: 'opacity 0.5s' }}>
       <h2>Hello, je suis <b>Mélanie</b> ^^</h2><br/>
       <h3>Etudiante de deuxième année à l'EPSI Montpellier et <b>développeuse full stack</b> passionée.</h3>
-      <p className={styles.grey}>Soucieuse de bien faire, mature, curieuse, autonome et épistémophile. Toutes ces qualités m'ont permis d'être l'une des meilleures élèves de ma promotion et ce depuis toujours.</p>
+      <p className={styles.grey}>Soucieuse de bien faire, créative, mature, autonome et épistémophile. Toutes ces qualités m'ont permis d'être l'une des meilleures élèves de ma promotion et ce depuis toujours.</p>
       <br/><a className={styles.cvbutton} href="/CV.pdf" target="_blank" rel="noopener noreferrer">
               <button className={styles.outlined}>Télécharger mon CV</button>
       </a>
@@ -62,14 +110,14 @@ export default function About() {
         <div className={styles.expertiseElement}>
           <FontAwesomeIcon className={styles.icon} icon={faCode} />
           <div>
-            <h4>Developpement d'Applications</h4>
+            <h4>Développement d'Applications</h4>
             <p className={styles.grey}>Maitrise des langages Python, PHP, Java, C#, Javascript, SQL, etc...</p>
           </div>
         </div>
         <div className={styles.expertiseElement}>
           <FontAwesomeIcon className={styles.icon} icon={faGlobe} />
           <div>
-              <h4>Developpement Web</h4>
+              <h4>Développement Web</h4>
               <p className={styles.grey}>Frameworks Django, VuesJS, React,... ainsi que Wordpress.</p>
           </div>
         </div>
@@ -82,7 +130,7 @@ export default function About() {
         </div>
       </div>
       <h2 className={styles.aboutTitle}>Mes compétences</h2>
-      <p className={styles.grey} style={{ textAlign: "center"}}>(Models 3D réalisés par mes soins)</p>
+      <p className={styles.grey} style={{ textAlign: "center"}}>(Modèles 3D réalisés par mes soins)</p>
       <div className={styles.skillsContainer}>
         <div className={styles.canvasContainer}>
           <canvas className={styles.canvas} ref={splineContainerRef1}></canvas>
@@ -98,6 +146,30 @@ export default function About() {
         </div>
         <div className={styles.canvasContainer}>
           <canvas className={styles.canvas} ref={splineContainerRef5}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef6}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef7}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef8}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef9}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef10}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef11}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef12}></canvas>
+        </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef13}></canvas>
         </div>
       </div>
     </div>
