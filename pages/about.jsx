@@ -21,6 +21,7 @@ export default function About() {
   const splineContainerRef11 = useRef(null);
   const splineContainerRef12 = useRef(null);
   const splineContainerRef13 = useRef(null);
+  const splineContainerRef14 = useRef(null);
 
   useEffect(() => {
     const fadeIn = setTimeout(() => {
@@ -49,46 +50,51 @@ export default function About() {
 
     if (splineContainerRef5.current) {
       const app = new Application(splineContainerRef5.current);
-      app.load('https://prod.spline.design/qPgHhlKdJwHvuj3b/scene.splinecode');
+      app.load('https://prod.spline.design/lFXDVnym7XhfBBpS/scene.splinecode');
     }
 
     if (splineContainerRef6.current) {
       const app = new Application(splineContainerRef6.current);
-      app.load('https://prod.spline.design/8JI8D6CPTztecQTI/scene.splinecode');
+      app.load('https://prod.spline.design/qPgHhlKdJwHvuj3b/scene.splinecode');
     }
 
     if (splineContainerRef7.current) {
       const app = new Application(splineContainerRef7.current);
-      app.load('https://prod.spline.design/YVONpamfYUqZnj6Q/scene.splinecode');
+      app.load('https://prod.spline.design/8JI8D6CPTztecQTI/scene.splinecode');
     }
 
     if (splineContainerRef8.current) {
       const app = new Application(splineContainerRef8.current);
-      app.load('https://prod.spline.design/ApemgRG4REGYGdqi/scene.splinecode');
+      app.load('https://prod.spline.design/YVONpamfYUqZnj6Q/scene.splinecode');
     }
 
     if (splineContainerRef9.current) {
       const app = new Application(splineContainerRef9.current);
-      app.load('https://prod.spline.design/NWqsdD-scThOg79x/scene.splinecode');
+      app.load('https://prod.spline.design/ApemgRG4REGYGdqi/scene.splinecode');
     }
 
     if (splineContainerRef10.current) {
       const app = new Application(splineContainerRef10.current);
-      app.load('https://prod.spline.design/XY26UtDdK8xRTId0/scene.splinecode');
+      app.load('https://prod.spline.design/NWqsdD-scThOg79x/scene.splinecode');
     }
 
     if (splineContainerRef11.current) {
       const app = new Application(splineContainerRef11.current);
-      app.load('https://prod.spline.design/cg2VH-HeBIMZsvI5/scene.splinecode');
+      app.load('https://prod.spline.design/XY26UtDdK8xRTId0/scene.splinecode');
     }
 
     if (splineContainerRef12.current){
       const app = new Application(splineContainerRef12.current);
-      app.load('https://prod.spline.design/kp4gaiKutWP7bSOY/scene.splinecode');
+      app.load('https://prod.spline.design/cg2VH-HeBIMZsvI5/scene.splinecode');
     }
 
     if (splineContainerRef13.current){
       const app = new Application(splineContainerRef13.current);
+      app.load('https://prod.spline.design/kp4gaiKutWP7bSOY/scene.splinecode');
+    }
+
+    if (splineContainerRef14.current){
+      const app = new Application(splineContainerRef14.current);
       app.load('https://prod.spline.design/LgZZewqv0DdIdqqT/scene.splinecode');
     }
 
@@ -130,7 +136,7 @@ export default function About() {
         </div>
       </div>
       <h2 className={styles.aboutTitle}>Mes compétences</h2>
-      <p className={styles.grey} style={{ textAlign: "center"}}>(Modèles 3D réalisés par mes soins)</p>
+      <p className={styles.grey} style={{ textAlign: "center"}}>(Modèles 3D réalisés par mes soins et interractifs.)</p>
       <div className={styles.skillsContainer}>
         <div className={styles.canvasContainer}>
           <canvas className={styles.canvas} ref={splineContainerRef1}></canvas>
@@ -171,7 +177,11 @@ export default function About() {
         <div className={styles.canvasContainer}>
           <canvas className={styles.canvas} ref={splineContainerRef13}></canvas>
         </div>
+        <div className={styles.canvasContainer}>
+          <canvas className={styles.canvas} ref={splineContainerRef14}></canvas>
+        </div>
       </div>
+      <h2 className={styles.aboutTitle}>Mon expérience</h2>
     </div>
   );
 }

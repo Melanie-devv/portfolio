@@ -2,6 +2,7 @@
 
 .body b {
   color: var(--accent-color);
+  overflow: hidden;
 }
 
 .grey {
@@ -67,19 +68,35 @@
   opacity: 0.6;
 }
 
-.canvasContainer {
-  width: 100px;
-  height: 100px;
-  margin: 1rem;
-}
 .skillsContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+.canvasContainer {
+  width: 140px;
+  height: 140px;
 }
 
 @media screen and (max-width: 900px) {
   .expertiseContainer {
     flex-wrap: wrap;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  .canvasContainer canvas {
+    width: 1px;
+    margin: 7rem;
+    margin-top: 0;
   }
+
+  .skillsContainer {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    width: 80vw;
+  } 
 }
