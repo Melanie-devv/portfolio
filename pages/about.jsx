@@ -136,7 +136,7 @@ export default function About() {
         </div>
       </div>
       <h2 className={styles.aboutTitle}>Mes compétences</h2>
-      <p className={styles.grey} style={{ textAlign: "center"}}>(Modèles 3D réalisés par mes soins et interractifs.)</p>
+      <p className={styles.grey} style={{ textAlign: "center"}}>(Modèles 3D et interractifs réalisés par mes soins.)</p>
       <div className={styles.skillsContainer}>
         <div className={styles.canvasContainer}>
           <canvas className={styles.canvas} ref={splineContainerRef1}></canvas>

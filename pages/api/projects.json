@@ -129,7 +129,7 @@
     "id": 15,
     "name": "Flashbacks",
     "image": "/images/web-7.jpg",
-    "description": "Création d'une webapp et amélioration d'une application Android existante.",
+    "description": "Création d'une webapp et amélioration d'une application Android existante pour l'agence Go Easy.",
     "tags": ["flutter", "dart", "html", "css", "python"],
     "demo": "http://localhost:3000/articleIndisponible/",
     "theme": "Stage"

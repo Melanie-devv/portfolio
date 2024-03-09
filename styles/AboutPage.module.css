@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
+@keyframes glowing-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
 .body b {
   color: var(--accent-color);
   overflow: hidden;
@@ -12,28 +24,93 @@
 }
 
 .outlined {
+  margin: 1rem;
+  transition: all 0.3s;
+  font-size: 1.25rem;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--accent-color);
+  box-shadow: var(--accent-color) 0px 0px 50px;
+  cursor: pointer; 
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.outlined:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.outlined:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/*.outlined {
+  margin: 1rem;
   transition: all 0.5s;
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   color: #eee;
+  border: none;
   border-bottom: 2px solid var(--accent-color);
-  border-right: 2px solid var(--accent-color);;
-  box-shadow: var(--accent-color) 0px 20px 30px -10px;
+  box-shadow: var(--accent-color) 0px 0px 20px;
   border-radius: 10px;
   background: transparent;
   cursor: pointer;
-}
+  position: relative; 
+  overflow: hidden; 
+} */
 
 .outlined:hover {
-  transition: all 0.5s;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background-color: var(--accent-color);
+  transition: all 0.3s;
+  box-shadow: none;
+  color: var(--accent-color);
 }
 
 .cvbutton {
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  width: fit-content;
+  margin: auto;
   text-decoration: none;
 }
 
