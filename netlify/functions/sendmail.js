@@ -40,9 +40,9 @@ exports.handler = async function(event, context) {
         let info = await transporter.sendMail(mailOptions);
         console.log('Message sent: %s', info.messageId);   
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-        return { statusCode: 200, body: "Message sent" };
+        return { statusCode: 200, body: JSON.stringify({ status: 'success' }) };
     } catch (error) {
         console.log(error);
-        return { statusCode: 500, body: "Error" };
+        return { statusCode: 500, body: JSON.stringify({ status: 'fail' }) };
     }
 };

@@ -44,10 +44,10 @@ const ContactPage = () => {
     .then((response) => response.json())
     .then((data) => {
       if (data.status === 'success'){
-        alert("Message Sent."); 
+        alert("Message envoyé avec succès."); 
         resetForm()
       } else if(data.status === 'fail'){
-        alert("Message failed to send.")
+        alert("Erreur lors de l'envoi du message.")
       }
     })
     .catch((error) => {
