@@ -153,3 +153,29 @@
   --scrollbar-thumb-bg: #043254;
   --article-bg: #031d33;
 }
+
+/* Seizure */
+[data-theme='seizure'] {
+  --main-bg: #00ff37;
+  --bg-text: #003cff;
+  --text-color: #ff0000;
+  --accent-color: rgb(183, 0, 255);
+  --titlebar-bg: #000000;
+  --sidebar-bg: #ffff00;
+  --sidebar-hover-bg: #ffd000;
+  --explorer-bg: #ff0095;
+  --explorer-hover-bg: #008cff;
+  --explorer-border: transparent;
+  --tabs-bg: #ff4d00;
+  --tab-bg: #0091ff;
+  --tab-active-bg: #0033ff;
+  --tab-border: rgb(255, 0, 0);
+  --bottombar-bg: #000000;
+  --bottombar-border: #ff0000;
+  --button-bg: rgb(255, 255, 255);
+  --button-text: #000000;
+  --bottombar-hover-bg: #008cff;
+  --scrollbar-track-bg: #ffff00;
+  --scrollbar-thumb-bg: #008cff;
+  --article-bg: #00d0ff;
+}

@@ -35,6 +35,13 @@ const SettingsPage = () => {
           description="A simple theme with bright colors."
         />
         <ThemeInfo
+          name="Seizure"
+          icon="/rainbow.png"
+          publisher="Worst UI awards"
+          theme="seizure"
+          description="Won the worst UI Designer awards."
+        />
+        <ThemeInfo
           name="Nord"
           icon="/nord.png"
           publisher="arcticicestudio"

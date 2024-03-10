@@ -180,6 +180,12 @@
   box-shadow: var(--accent-color) 0px 0px 20px 10px;
 }
 
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-1100%); }
+  100% { transform: translateX(0); }
+}
+
 @media screen and (max-width: 900px) {
   .expertiseContainer {
     flex-wrap: wrap;
@@ -191,6 +197,7 @@
     width: 1px;
     margin: 7rem;
     margin-top: 0;
+    animation: scroll 20s linear;
   }
 
   .skillsContainer {
@@ -199,5 +206,5 @@
     overflow-y: hidden;
     justify-content: flex-start;
     width: 80vw;
-  } 
+  }
 }

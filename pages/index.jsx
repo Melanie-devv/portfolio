@@ -42,7 +42,9 @@ export default function HomePage() {
               <button className={styles.outlined}>Télécharger mon CV</button>
             </a>
           </div>
-          <img src="/img.png" className={styles.illustration} alt="Ma photo d'identité" />
+          <Link href="/settings">
+            <img src="/img.png" className={styles.illustration} alt="Ma photo d'identité" />
+          </Link>
         </div>
       </div>
     </>
