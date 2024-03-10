@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'internet',
-    link: 'cesite.com',
-    href: 'http://localhost:3000/',
+    link: 'melanie-bulkan-portfolio',
+    href: 'https://melanie-bulkan-portfolio.netlify.app/contact',
   },
   {
     social: 'email',

@@ -29,7 +29,7 @@ const ContactPage = () => {
 
   const submitForm = (e) => {
     e.preventDefault();
-    fetch('http://localhost:5000/mail/send', {
+    fetch('/sendmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
