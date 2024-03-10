@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/sendmail"
+    to = "/.netlify/functions/sendmail"
+    status = 200
+    methods = ["POST"]
