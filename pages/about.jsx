@@ -119,14 +119,14 @@ export default function About() {
           <FontAwesomeIcon className={styles.icon} icon={faCode} />
           <div>
             <h4>Développement d'Applications</h4>
-            <p className={styles.grey}>Maitrise des langages Python, PHP, Java, C#, Javascript, SQL, etc...</p>
+            <p className={styles.grey}>Conception d’applications sur-mesure et multiplateformes.</p>
           </div>
         </div>
         <div className={styles.expertiseElement}>
           <FontAwesomeIcon className={styles.icon} icon={faGlobe} />
           <div>
               <h4>Développement Web</h4>
-              <p className={styles.grey}>Frameworks Django, VuesJS, React,... ainsi que Wordpress.</p>
+              <p className={styles.grey}>Réalisation de solutions web complètes et personnalisées.</p>
           </div>
         </div>
         <div className={styles.expertiseElement}>

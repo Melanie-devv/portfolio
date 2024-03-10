@@ -1,54 +1,42 @@
 [
     {
-        "title": "React.js Developer",
-        "company_name": "Starbucks",
-        "icon": "path/to/starbucks/icon",
+        "title": "Développeuse Full Stack",
+        "company_name": "GO EASY",
+        "icon": "https://media.licdn.com/dms/image/D4E0BAQFNzMcNG5iJPQ/company-logo_200_200/0/1693840964226/agence_goeasy_logo?e=2147483647&v=beta&t=dtTWniBKg_-YX1gdOpODHGfPFp3UAc8Hcd7fNc0dV3E",
         "iconBg": "#383E56",
-        "date": "March 2020 - April 2021",
+        "date": "décembre 2023 - février 2024",
         "points": [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Stage en équipe. Reprise et amélioration d'une application mobile 'Flashbacks', implémentation de nouvelles fonctionnalités et création d'une web app en Flutter. Utilisation de Firebase Storage, Google Cloud, et d’autres services tels que Stripe, etc..."
         ]
     },
     {
-        "title": "React Native Developer",
-        "company_name": "Tesla",
-        "icon": "path/to/tesla/icon",
+        "title": "Distributrice de courrier",
+        "company_name": "ADREXO",
+        "icon": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/1c08e7b7bd8c29f9dac27425546fb7ec",
         "iconBg": "#E6DEDD",
-        "date": "Jan 2021 - Feb 2022",
+        "date": "juillet 2023 - août 2023",
         "points": [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Dispatching de prospectus selon différents secteurs, gestion via un appareil dédié, distribution de courrier de 6h à 21h."
         ]
     },
     {
-        "title": "Web Developer",
-        "company_name": "Shopify",
-        "icon": "path/to/shopify/icon",
+        "title": " Technicienne informatique",
+        "company_name": "OC-SANTE",
+        "icon": "https://pbs.twimg.com/profile_images/1719265589946892288/t4eIqRY3_400x400.jpg",
         "iconBg": "#383E56",
-        "date": "Jan 2022 - Jan 2023",
+        "date": "mai 2023 - juillet 2023",
         "points": [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Stagiaire. Mise en place d’un logiciel de supervision (Zabbix) pour l’ensemble du réseau de l’entreprise. Installé sur une VM Linux. Gestion des données et des alertes via le protocole SNMP. Monitoring via interface web (fonctions PHP...)."
         ]
     },
     {
-        "title": "Full stack Developer",
-        "company_name": "Meta",
-        "icon": "path/to/meta/icon",
+        "title": "Assistante de direction",
+        "company_name": "DOMISOL",
+        "icon": "https://cdn.dribbble.com/users/4184228/screenshots/8573885/domisol.jpg",
         "iconBg": "#E6DEDD",
-        "date": "Jan 2023 - Present",
+        "date": "septembre 2019 - mars 2022",
         "points": [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Accueil des clients, gestion administrative, vente et commande de produits, gestion et relation fournisseurs / commerciaux / transporteurs, petite comptabilité (calcul de marges, mise en place de tarifs...), prise en charge d’appels téléphoniques, marketing (création de flyers, site web, cartes de visites, affiches promotionnelles...), etc..."
         ]
     }
 ]

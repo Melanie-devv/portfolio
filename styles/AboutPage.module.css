@@ -176,7 +176,7 @@
 
 .footer a:hover {
   transition: all ease-in-out 0.8s;
-  color: var(--button-text);
+  color: var(--accent-color);
   box-shadow: var(--accent-color) 0px 0px 20px 10px;
 }
 

@@ -1,0 +1,15 @@
+.work div {
+    background: var(--article-bg);
+}
+
+.grey {
+    opacity: 0.5;
+    margin-top: 0.5rem;
+    text-align: justify;
+    font-size: 0.8rem !important;
+}
+
+.work div h3 {
+    color: var(--accent-color);
+    margin-bottom: 0.2rem;
+}

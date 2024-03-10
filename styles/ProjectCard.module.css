@@ -23,6 +23,10 @@
   margin-top: 0.5rem;
 }
 
+.content h3 {
+  color: var(--accent-color);
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
