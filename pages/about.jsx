@@ -5,7 +5,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons'
 import styles from '../styles/AboutPage.module.css';
-import { Experience } from '../components/ExperienceSection';
+import { ExperienceSection } from '../components/ExperienceSection.jsx';
 
 
 export default function About() {
@@ -184,7 +184,7 @@ export default function About() {
         </div>
       </div>
       <h2 className={styles.aboutTitle}>Mes expériences</h2>
-      <Experience />
+      <ExperienceSection />
       <hr className={styles.hrStyle} />
       <div className={styles.footer}>
         <a href="/contact">
