@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import Illustration from '../components/Illustration';
 import styles from '../styles/HomePage.module.css';
@@ -43,7 +44,13 @@ export default function HomePage() {
             </a>
           </div>
           <Link href="/settings">
-            <img src="/img.png" className={styles.illustration} alt="Ma photo d'identité" />
+            <Image 
+              src="/img.png" 
+              alt="Ma photo d'identité" 
+              className="HomePage_illustration__sclzu"
+              width={460}
+              height={500}
+            />
           </Link>
         </div>
       </div>
