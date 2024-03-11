@@ -15,13 +15,13 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Mélanie B. est une développeuse Full Stack passionné qui crée des sites web et des applications que vous adorerez utiliser"
+        content="Mélanie Bulkan est une développeuse Full Stack passionné qui crée des sites web et des applications que vous adorerez utiliser"
       />
       <meta
         name="keywords"
-        content="melanie bulkan, bulkan, developpeur web portfolio, melanie developpeur, portfolio bts sio, portfolio bts sio slam, melanie bulkan portfolio, developpeur full stack portfolio"
+        content="melanie bulkan portfolio, melanie bulkan, bulkan, developpeur web portfolio, melanie developpeur, portfolio bts sio, portfolio bts sio slam, melanie bulkan portfolio, developpeur full stack portfolio"
       />
-      <meta property="og:title" content="Portfolio de Mélanie B." />
+      <meta property="og:title" content="Portfolio de Mélanie Bulkan" />
       <meta
         property="og:description"
         content="Une développeuse Full Stack passionné en BTS SIO SLAM."
