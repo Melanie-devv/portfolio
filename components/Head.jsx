@@ -24,7 +24,7 @@ const CustomHead = ({ title }) => {
       <meta property="og:title" content="Portfolio de Mélanie Bulkan" />
       <meta
         property="og:description"
-        content="Une développeuse Full Stack passionné en BTS SIO SLAM."
+        content="Une développeuse Full Stack passionnée en BTS SIO SLAM."
       />
     </Head>
   );

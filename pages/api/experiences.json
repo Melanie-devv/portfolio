@@ -1,6 +1,16 @@
 [
     {
         "title": "Développeuse Full Stack",
+        "company_name": "B.M.Tech",
+        "icon": "https://th.bing.com/th/id/OIG1.AjgKzQEmZ_OMRahrRE0_?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "iconBg": "#009000 ",
+        "date": "Mars 2024 - Maintenant",
+        "points": [
+            "Ma propre micro-entreprise de prestation de services informatique. Création, amélioration et maintenance de logiciels, applications et sites web."
+        ]
+    },
+    {
+        "title": "Développeuse Full Stack",
         "company_name": "GO EASY",
         "icon": "https://media.licdn.com/dms/image/D4E0BAQFNzMcNG5iJPQ/company-logo_200_200/0/1693840964226/agence_goeasy_logo?e=2147483647&v=beta&t=dtTWniBKg_-YX1gdOpODHGfPFp3UAc8Hcd7fNc0dV3E",
         "iconBg": "#383E56",
