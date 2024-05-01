@@ -20,6 +20,7 @@ const GithubPage = ({ repos, user }) => {
       <p>Le BTS <b>Services Informatique aux Organisations</b> est un diplôme reconnu par l’état de niveau Bac+2. Il remplace depuis septembre 2011 l’ancien BTS informatique de Gestion (BTS IG).</p><br/>
       <p>Il s’adresse à ceux qui souhaitent se former en deux ans aux métiers <b>d’administrateur réseau</b> ou de <b>développeur</b> pour intégrer directement le marché du travail ou continuer des études dans le domaine de l’informatique.</p><br />
       <p>Le programme a évolué en fonction de la place et du rôle des TIC (Technologies d’Information Communication) et propose deux spécialités bien distinctes : le <b>BTS SIO SISR</b> et le <b>BTS SIO SLAM</b>.</p><br/><br/>
+      <p>Pour plus d'informations: <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"><b>cliquez ici</b></a></p><br/><br/>
 
       <h3 style={{textAlign: "center"}}>Les options du BTS SIO</h3>
       <div className={styles.optionContainer}>
@@ -47,6 +48,12 @@ const GithubPage = ({ repos, user }) => {
             <li>• Technicien d’infrastructure</li>
           </ul>
         </div>
+      </div>
+      <br/><br/>
+      <div className={styles.buttonContainer}>
+        <a href="/TableauSynthese.pdf" target="_blank" rel="noopener noreferrer">
+          <button className={styles.button}>Mon tableau de compétences</button>
+        </a>
       </div>
     </div>
   );
