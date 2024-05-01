@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Labyrinthe",
-    "image": "/images/branding-2.jpg",
-    "description": "Outil de génération de labyrinthe (affichage console) en Python.",
-    "tags": ["python"],
-    "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "name": "MyLibrary",
+    "image": "/images/situation-1.jpg",
+    "description": "Application mobile de gestion de livres reliée à Firebase avec interface admin. Gestion des utilisateurs, stocks, réservations,etc...",
+    "tags": ["flutter", "dart"],
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_Situation1.pdf",
+    "theme": "Situation BTS"
   },
   {
     "id": 2,
@@ -131,7 +131,7 @@
     "image": "/images/web-7.jpg",
     "description": "Création d'une webapp et amélioration d'une application Android existante pour l'agence Go Easy.",
     "tags": ["flutter", "dart", "html", "css", "python"],
-    "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_FLASHBACKS.pdf",
     "theme": "Stage"
   },
   {
@@ -158,7 +158,7 @@
     "image": "/images/reseau-1.jpg",
     "description": "Mise en place d’une solution de supervision du réseau (Zabbix) pour l'ensemble du groupe OC-SANTE",
     "tags": ["reseau"],
-    "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_OCSANTE.pdf",
     "theme": "Stage"
   },
   {
@@ -214,5 +214,23 @@
     "tags": ["javascript", "vueJS"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
     "theme": "Ecole"
+  },
+  {
+    "id": 25,
+    "name": "Labyrinthe",
+    "image": "/images/branding-2.jpg",
+    "description": "Outil de génération de labyrinthe (affichage console) en Python.",
+    "tags": ["python"],
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+    "theme": "Personnel"
+  },
+  {
+    "id": 26,
+    "name": "LapTech Solutions",
+    "image": "/images/situation-2.jpg",
+    "description": "Site web e-commerce de gestion de PC utilisant le framework Symfony. Intègre une API REST avec accès et traitement des données, externalisés sur un serveur distant.",
+    "tags": ["html", "css", "php", "symfony"],
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_Situation2.pdf",
+    "theme": "Situation BTS"
   }
 ]
