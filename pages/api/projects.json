@@ -67,7 +67,7 @@
     "tags": ["html", "css", "javascript"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
     "theme": "Stage",
-    "bts": true
+    "bts": false
   },
   {
     "id": 8,
@@ -177,7 +177,7 @@
     "tags": ["reseau"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_OCSANTE.pdf",
     "theme": "Stage",
-    "bts": false
+    "bts": true
   },
   {
     "id": 19,

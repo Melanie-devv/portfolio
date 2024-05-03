@@ -27,7 +27,7 @@ const Epreuve4 = ({ projects }) => {
 
   return (
     <>
-      <h3>Page épreuve E4 (pour le BTS)</h3><br /><br />
+      <h2>Page épreuve E4 (pour le BTS)</h2><br /><br />
       <div className={styles.buttonContainer}>
         <a href="/TableauSynthese.pdf" target="_blank" rel="noopener noreferrer">
           <button className={styles.button}>Mon tableau de compétences</button>
