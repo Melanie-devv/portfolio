@@ -16,7 +16,7 @@ const GithubPage = ({ repos, user }) => {
 
   return (
     <div className={styles.body} style={{ opacity, transition: 'opacity 0.5s' }}>
-      <h2>Présentation du BTS SIO (E4)</h2><br/><br/>
+      <h2>Présentation du BTS SIO</h2><br/><br/>
       <p>Le BTS <b>Services Informatique aux Organisations</b> est un diplôme reconnu par l’état de niveau Bac+2. Il remplace depuis septembre 2011 l’ancien BTS informatique de Gestion (BTS IG).</p><br/>
       <p>Il s’adresse à ceux qui souhaitent se former en deux ans aux métiers <b>d’administrateur réseau</b> ou de <b>développeur</b> pour intégrer directement le marché du travail ou continuer des études dans le domaine de l’informatique.</p><br />
       <p>Le programme a évolué en fonction de la place et du rôle des TIC (Technologies d’Information Communication) et propose deux spécialités bien distinctes : le <b>BTS SIO SISR</b> et le <b>BTS SIO SLAM</b>.</p><br/><br/>

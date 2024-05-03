@@ -24,6 +24,22 @@
   transition: background-size 0.25s ease-in;
 }
 
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background: var(--accent-color);
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
 .underline:hover {
   background-size: 100% 88%;
 }

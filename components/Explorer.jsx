@@ -35,6 +35,16 @@ const explorerItems = [
     path: '/bts',
     icon: 'markdown_icon.svg',
   },
+  {
+    name: 'epreuveE4.md',
+    path: '/epreuve4',
+    icon: 'markdown_icon.svg',
+  },
+  {
+    name: 'epreuveE5.md',
+    path: '/epreuve5',
+    icon: 'markdown_icon.svg',
+  },
 ];
 
 const Explorer = () => {

@@ -6,7 +6,8 @@
     "description": "Application mobile de gestion de livres reliée à Firebase avec interface admin. Gestion des utilisateurs, stocks, réservations,etc...",
     "tags": ["flutter", "dart"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_Situation1.pdf",
-    "theme": "Situation BTS"
+    "theme": "Situation BTS",
+    "bts": false
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "description": "Jeu du snake avec plusieurs modes de jeu en utilisant pygame. Peut se jouer avec une manette.",
     "tags": ["python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_SNAKE.pdf",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": true
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "description": "Jeu du puissance 4 en POO avec un menu et des animations, plusieurs modes de jeu, affichage graphique Tkinter.",
     "tags": ["python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "description": "Site de réservation de chambres pour un hotel avec gestion des utilisateurs et recherche par filtre.",
     "tags": ["html", "css", "javascript", "php", "sql"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_HOTEL_NEPTUNE.pdf",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": true
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "description": "Site complet de blog et tchat en ligne avec un espace membre.",
     "tags": ["html", "css", "php", "sql"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_BLOGGY.pdf",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "description": "Site e-commerce de coques de téléphone, Wordpress relié a Hubspot, Google analytics et woo-commerce.",
     "tags": ["wordpress", "hubspot", "outils_google"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "description": "Site vitrine professionnel de la société DOMISOL carrelages.",
     "tags": ["html", "css", "javascript"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Stage"
+    "theme": "Stage",
+    "bts": true
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "description": "Jeu du devine nombre en Javascript avec affichage web",
     "tags": ["javascript", "html", "css"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "description": "Encyclopédie en ligne regroupant les derniers albums des chanteurs dont Charles Aznavour.",
     "tags": ["html", "css"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "description": "Site avec les corrigés (réalisés par mes soins) de tous les sujets de NSI du bac 2022.",
     "tags": ["html", "css"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "description": "Traitement de données, campagnes d'emailing et acquisition de leads pour un site e-commerce sur Hubspot.",
     "tags": ["hubspot", "marketing"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "description": "Création d'une pipeline sur Pipedrive pour l'entreprise Getlono.",
     "tags": ["crm", "marketing"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "description": "Campagne SEM / SMO (social media optimisation) pour Paul Boulangerie.",
     "tags": ["marketing"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "description": "Audit des cannaux de communication de l'entreprise Moulin Roty.",
     "tags": ["marketing"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "description": "Création d'une webapp et amélioration d'une application Android existante pour l'agence Go Easy.",
     "tags": ["flutter", "dart", "html", "css", "python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_FLASHBACKS.pdf",
-    "theme": "Stage"
+    "theme": "Stage",
+    "bts": true
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "description": "Création de mon portfolio unique pour le BTS SIO.",
     "tags": ["nextJS","nodeJS", "react", "javascript", "css"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": true
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "description": "Création de mon portfolio (ancien) personnel, remplacé par une version plus récente.",
     "tags": ["html", "css", "javascript"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "description": "Mise en place d’une solution de supervision du réseau (Zabbix) pour l'ensemble du groupe OC-SANTE",
     "tags": ["reseau"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_OCSANTE.pdf",
-    "theme": "Stage"
+    "theme": "Stage",
+    "bts": false
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "description": "Application complète pour commander chez une pizzeria en utilisant une API en ligne.",
     "tags": ["flutter", "dart"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_PIZZERIA.pdf",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": true
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "description": "Programme générant des formes géométriques colorées en Python à l'aide de Turtle.",
     "tags": ["python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "description": "Site web vitrine pour promouvoir l'égalité et sensibiliser. Avec le developpement d'un jeu type RPG Maker.",
     "tags": ["html", "css", "javascript"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "description": "Site web python django à l'image de Parcoursup (gestion d'établissements, de voeux, d'utilisateurs avec une page admin).",
     "tags": ["python", "django"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "description": "Site web de gestion de livres (ajout, lecture, modification, suppression) développé en php symfony.",
     "tags": ["php", "symfony"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": true
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@
     "description": "Site web comprenant un panel de fonctionnalités (requête api, affichage d'image, d'animation, envoi de messages via Discord,...).",
     "tags": ["javascript", "vueJS"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Ecole",
+    "bts": false
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@
     "description": "Outil de génération de labyrinthe (affichage console) en Python.",
     "tags": ["python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Personnel",
+    "bts": false
   },
   {
     "id": 26,
@@ -231,6 +256,7 @@
     "description": "Site web e-commerce de gestion de PC utilisant le framework Symfony. Intègre une API REST avec accès et traitement des données, externalisés sur un serveur distant.",
     "tags": ["html", "css", "php", "symfony"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_Situation2.pdf",
-    "theme": "Situation BTS"
+    "theme": "Situation BTS",
+    "bts": false
   }
 ]

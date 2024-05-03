@@ -3,7 +3,7 @@ import { getProjects } from './api/projects';
 import styles from '../styles/ProjectsPage.module.css';
 import { useState, useEffect } from 'react';
 
-const ProjectsPage = ({ projects }) => {
+const Epreuve4 = ({ projects }) => {
   const [opacity, setOpacity] = useState(0);
   const [filter, setFilter] = useState('all');
 
@@ -21,25 +21,19 @@ const ProjectsPage = ({ projects }) => {
     setFilter(theme);
   };
 
-  const filteredProjects = filter === 'all'
-    ? projects
-    : projects.filter(project => project.theme === filter);
+  const filteredProjects = projects.filter(project => (filter === 'all' ? true : project.theme === filter) && project.bts === true);
 
   const themes = ['all', ...new Set(projects.map(project => project.theme))];
 
   return (
     <>
-      <h3>Une petite liste de mes projets</h3>
+      <h3>Page épreuve E4 (pour le BTS)</h3><br /><br />
+      <div className={styles.buttonContainer}>
+        <a href="/TableauSynthese.pdf" target="_blank" rel="noopener noreferrer">
+          <button className={styles.button}>Mon tableau de compétences</button>
+        </a>
+      </div>
       <div className={styles.boutons}>
-        {themes.map(theme => (
-          <a 
-          key={theme} 
-          onClick={() => handleFilterChange(theme)} 
-          className={`${styles.underline} ${filter === theme ? styles.active : ''}`}
-          >
-            {theme === 'all' ? 'Tous' : theme}
-          </a>
-        ))}
       </div>
       <div className={styles.container} style={{ opacity, transition: 'opacity 0.5s' }}>
         {filteredProjects.map((project) => (
@@ -54,8 +48,8 @@ export async function getStaticProps() {
   const projects = getProjects();
 
   return {
-    props: { title: 'Mes projets', projects },
+    props: { title: 'E4', projects },
   };
 }
 
-export default ProjectsPage;
+export default Epreuve4;
