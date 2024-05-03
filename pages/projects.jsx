@@ -29,7 +29,7 @@ const ProjectsPage = ({ projects }) => {
 
   return (
     <>
-      <h3>Une petite liste de mes projets</h3>
+      <h3>Une petite liste de mes projets (E5)</h3>
       <div className={styles.boutons}>
         {themes.map(theme => (
           <a 
