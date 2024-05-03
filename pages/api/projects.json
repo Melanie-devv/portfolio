@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "name": "ColorPy",
-    "image": "/images/branding-3.jpg",
-    "description": "Programme générant des formes géométriques colorées en Python à l'aide de Turtle.",
+    "name": "Snake Python",
+    "image": "/images/branding-6.jpg",
+    "description": "Jeu du snake avec plusieurs modes de jeu en utilisant pygame. Peut se jouer avec une manette.",
     "tags": ["python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Personnel"
+    "theme": "Ecole"
   },
   {
     "id": 3,
@@ -172,12 +172,12 @@
   },
   {
     "id": 20,
-    "name": "Snake Python",
-    "image": "/images/branding-6.jpg",
-    "description": "Jeu du snake avec plusieurs modes de jeu en utilisant pygame. Peut se jouer avec une manette.",
+    "name": "ColorPy",
+    "image": "/images/branding-3.jpg",
+    "description": "Programme générant des formes géométriques colorées en Python à l'aide de Turtle.",
     "tags": ["python"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-    "theme": "Ecole"
+    "theme": "Personnel"
   },
   {
     "id": 21,
