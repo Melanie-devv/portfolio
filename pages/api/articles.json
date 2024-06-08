@@ -1,18 +1,9 @@
 [
     {
         "type_of": "article",
-        "title": "Framework python",
-        "description": "L’évolution des sites internet jusqu’aux frameworks fullstack commes Django ou Flask. Python dans les jeux vidéos, la data...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 21,
-        "public_reactions_count": 168,
-        "page_views_count": 3851
-    },
-    {
-        "type_of": "article",
         "title": "Evolution des batteries",
         "description": "L’utilisation croissante des batteries dans la vie quotidienne. Comment vont-elles évoluer dans le respect du développement durable...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+        "url": "https://melanie-bulkan-portfolio.netlify.app/veilles/Veille_Batteries.pdf",
         "comments_count": 10,
         "public_reactions_count": 212,
         "page_views_count": 8548
@@ -21,90 +12,18 @@
         "type_of": "article",
         "title": "Réalité virtuelle et réalité augmentée",
         "description": "L'évolution du metaverse. L’arrivée de nouveaux casques virtuels (avec caméra et capteurs infrarouge…), un besoin futur...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+        "url": "https://melanie-bulkan-portfolio.netlify.app/veilles/Veille_ARVR.pdf",
         "comments_count": 83,
         "public_reactions_count": 293,
         "page_views_count": 15114
     },
     {
         "type_of": "article",
-        "title": "Intelligence artificielle ",
-        "description": "Evolution des algorithmes d’IA et leurs domaines de plus en plus vaste. Les technologies génératives : ChatGPT, conflit d'éthique...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/veilles/Veille_IA.pdf",
-        "comments_count": 7,
-        "public_reactions_count": 50,
-        "page_views_count": 1731
-    },
-    {
-        "type_of": "article",
-        "title": "Impression 3D",
-        "description": "Evolution des matériaux et techniques d’impression. Future application industrielles de l’impression 3D...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 1,
-        "public_reactions_count": 10,
-        "page_views_count": 364
-    },
-    {
-        "type_of": "article",
-        "title": "Biotechnologies",
-        "description": "L’informatique au service de la recherche et la modification génétique. Combiner IA et thérapies géniques. Tendance vers l’automatisation et l’informatisation...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 1,
-        "public_reactions_count": 16,
-        "page_views_count": 929
-    },
-    {
-        "type_of": "article",
-        "title": "L'évolution vers la 5G",
-        "description": "Risques pour la santé. Déploiement mondial, avantages et inconvenients. Evolution du réseau. Comment les appareils vont s’adapter à la 5G ?...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 34,
-        "public_reactions_count": 588,
-        "page_views_count": 9950 
-    },
-    {
-        "type_of": "article",
         "title": "Voiture autonome",
         "description": "Les technologies (capteurs) et algorithmes utilisés pour la conduite autonome. Réglementation, des voitures de plus en plus sécurisées... ",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+        "url": "https://melanie-bulkan-portfolio.netlify.app/veilles/Veille_Voiture_Autonome.pdf",
         "comments_count": 23,
         "public_reactions_count": 188,
         "page_views_count": 2397
-    },
-    {
-        "type_of": "article",
-        "title": "L’art générée par l’IA ",
-        "description": "De plus en plus d’artistes qui utilisent l’IA, œuvres d’art numérique. Grands projets (films d’animation) qui vont utiliser l’IA. Controverse...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 7,
-        "public_reactions_count": 202,
-        "page_views_count": 3457
-    },
-    {
-        "type_of": "article",
-        "title": "L’Informatique quantique",
-        "description": "Arrivée de l’ordinateur quantique, ses solutions, ses contraintes. Le quantique au service de la cryptographique, pour le meilleur et pour le pire...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 88,
-        "public_reactions_count": 290,
-        "page_views_count": 9293
-    },
-    {
-        "type_of": "article",
-        "title": "La révolution du numérique dans l’armée",   
-        "description": "L’histoire de l’innovation technologique dans le domaine militaire. Les nouvelles technologies dans l’armée...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 7,
-        "public_reactions_count": 38,
-        "page_views_count": 1530
-    },
-    {
-        "type_of": "article",
-        "title": "Le numérique au service de la santé",
-        "description": "Télémédecine (doctolib, consultations à distance…). Big Data. Formations grace à de nouvelles technologies (AR/VR, simulations…)...",
-        "url": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
-        "comments_count": 2,
-        "public_reactions_count": 21,
-        "page_views_count": 1282
     }
 ]
