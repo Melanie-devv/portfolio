@@ -19,6 +19,15 @@
     },
     {
         "type_of": "article",
+        "title": "L’art générée par l’IA ",
+        "description": "De plus en plus d’artistes qui utilisent l’IA, œuvres d’art numérique. Grands projets (films d’animation) qui vont utiliser l’IA. Controverse...",
+        "url": "https://melanie-bulkan-portfolio.netlify.app/veilles/Veille_IA_Art.pdf",
+        "comments_count": 7,
+        "public_reactions_count": 202,
+        "page_views_count": 3457
+    },
+    {
+        "type_of": "article",
         "title": "Voiture autonome",
         "description": "Les technologies (capteurs) et algorithmes utilisés pour la conduite autonome. Réglementation, des voitures de plus en plus sécurisées... ",
         "url": "https://melanie-bulkan-portfolio.netlify.app/veilles/Veille_Voiture_Autonome.pdf",
