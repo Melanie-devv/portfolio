@@ -251,9 +251,9 @@
   },
   {
     "id": 26,
-    "name": "LapTech Solutions",
+    "name": "Cineflix",
     "image": "/images/situation-2.jpg",
-    "description": "Site web e-commerce de gestion de PC utilisant le framework Symfony. Intègre une API REST avec accès et traitement des données, externalisés sur un serveur distant.",
+    "description": "Site web de gestion de films, séries, épisodes et auteurs utilisant le framework Symfony. Intègre une API REST, un serveur MySQL distant, interface admin...",
     "tags": ["html", "css", "php", "symfony"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_Situation2.pdf",
     "theme": "Situation BTS",
