@@ -155,7 +155,7 @@
     "image": "/images/web-8.jpg",
     "description": "Création de mon portfolio unique pour le BTS SIO.",
     "tags": ["nextJS","nodeJS", "react", "javascript", "css"],
-    "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/Rapport_PORTFOLIO.pdf",
     "theme": "Ecole",
     "bts": true
   },
@@ -227,7 +227,7 @@
     "tags": ["php", "symfony"],
     "demo": "https://melanie-bulkan-portfolio.netlify.app/articleindisponible",
     "theme": "Ecole",
-    "bts": true
+    "bts": false
   },
   {
     "id": 24,
@@ -258,5 +258,15 @@
     "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_Situation2.pdf",
     "theme": "Situation BTS",
     "bts": false
+  },
+  {
+    "id": 27,
+    "name": "MyMusic",
+    "image": "/images/web-14.jpg",
+    "description": "Site web de bibliothèque musicale (ajout, lecture, modification, suppression) développé en php symfony.",
+    "tags": ["php", "symfony"],
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/Rapport_MYMUSIC.pdf",
+    "theme": "Ecole",
+    "bts": true
   }
 ]
