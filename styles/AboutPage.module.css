@@ -154,6 +154,10 @@
   height: 140px;
 }
 
+.center p {
+  text-align: center;
+}
+
 .hrStyle {
   border-color: var(--accent-color);
   height: 2px;

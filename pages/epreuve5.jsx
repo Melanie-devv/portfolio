@@ -1,18 +1,22 @@
+import ProjectCard from '../components/ProjectCard';
+import { getProjects } from './api/projects';
 import { useState, useEffect } from 'react';
 import styles from '../styles/GithubPage.module.css';
 
-const Epreuve5 = ({ repos, user }) => {
+const Epreuve5 = ({ projects }) => {
   const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
     const fadeIn = setTimeout(() => {
       setOpacity(1);
-    }, 100); // Commence à augmenter l'opacité après 0.1 seconde
+    }, 100);
 
     return () => {
       clearTimeout(fadeIn);
     };
   }, []);
+
+  const filteredProjects = projects.filter(project => project.theme === 'Situation BTS');
 
   return (
     <div className={styles.body} style={{ opacity, transition: 'opacity 0.5s' }}>
@@ -25,13 +29,20 @@ const Epreuve5 = ({ repos, user }) => {
           <button className={styles.button}>Situation 2</button>
         </a>
       </div>
+      <div className={styles.container} style={{ opacity, transition: 'opacity 0.5s' }}>
+        {filteredProjects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
     </div>
   );
 }
 
 export async function getStaticProps() {
+  const projects = getProjects();
+  
   return {
-    props: { title: 'E5' },
+    props: { title: 'E5', projects },
   };
 }
 

@@ -185,7 +185,19 @@ export default function About() {
       </div>
       <h2 className={styles.aboutTitle}>Mes expériences</h2>
       <ExperienceSection />
+
+      <h2 className={styles.aboutTitle}>Mes diplomes</h2><br />
+      <div className={styles.center}>
+        <p>Baccalauréat général (2022)</p>
+        <p className={styles.grey}>Mention très bien. Mathématiques et informatique</p><br />
+        <p>Brevet d'Initiation à l'Aéronautique</p>
+        <p className={styles.grey}>Mention très bien</p><br />
+        <p>Brevet des collèges</p>
+        <p className={styles.grey}>Mention très bien</p><br />
+      </div>
+
       <hr className={styles.hrStyle} />
+
       <div className={styles.footer}>
         <a href="/contact">
           <h3>Vous avez un projet à réaliser ?</h3>

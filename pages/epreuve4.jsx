@@ -33,6 +33,15 @@ const Epreuve4 = ({ projects }) => {
           <button className={styles.button}>Mon tableau de compétences</button>
         </a>
       </div>
+      <div  className={styles.pdfIframe}>
+        <iframe 
+          src="/TableauSynthese.pdf" 
+          width="800px" 
+          height="700px" 
+          style={{border: "none"}} 
+          title="Mon tableau de compétences">
+        </iframe>
+      </div>
       <div className={styles.boutons}>
       </div>
       <div className={styles.container} style={{ opacity, transition: 'opacity 0.5s' }}>
