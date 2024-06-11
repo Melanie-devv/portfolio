@@ -265,7 +265,7 @@
     "image": "/images/web-14.jpg",
     "description": "Site web de bibliothèque musicale (ajout, lecture, modification, suppression) développé en php symfony.",
     "tags": ["php", "symfony"],
-    "demo": "https://melanie-bulkan-portfolio.netlify.app/Rapport_MYMUSIC.pdf",
+    "demo": "https://melanie-bulkan-portfolio.netlify.app/projets/Rapport_MYMUSIC.pdf",
     "theme": "Ecole",
     "bts": true
   }
